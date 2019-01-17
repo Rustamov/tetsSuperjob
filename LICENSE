@@ -1,0 +1,13 @@
+alertMessage(content, type, placement, closeTime)
+	content - текст сообщения
+	type  - success, danger, info, warning
+	placement - top-left,  top-right, bottom-left, bottom-right
+
+	Example: alertMessage('Нужные поля не заполнены', 'danger', 'top-right');
+
+closeModals() - Закрывает открытые модольные окна. 
+
+Формы с классом "js-validate-form" проверяются на заполненость обязхательных полей.
+	
+
+

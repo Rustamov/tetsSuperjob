@@ -1,0 +1,124 @@
+body {
+  min-width: 320px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f2f2f2; }
+
+.page-title {
+  display: block;
+  margin: 40px 0 80px;
+  font-family: 'AkzidenzGroteskPro-Md';
+  font-size: 82px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.78;
+  letter-spacing: -0.1px;
+  color: #1a1818;
+  text-transform: none; }
+
+.lst-panel {
+  margin: 0 0 15px; }
+  .lst-panel__col-btn {
+    text-align: right; }
+
+.lst-projects-list {
+  margin: 0 0 40px; }
+
+.lst-project {
+  padding: 0 24px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s; }
+  .lst-project:hover, .lst-project--opened {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.12), 0 0 8px 0 rgba(0, 0, 0, 0.12); }
+  .lst-project--completed {
+    color: rgba(0, 0, 0, 0.57); }
+  .lst-project:not(:last-child) {
+    margin-bottom: 15px; }
+  .lst-project__top {
+    padding: 16px 0 20px; }
+  .lst-project__title {
+    display: block;
+    margin: 0 0 8px;
+    font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.39;
+    color: inherit; }
+  .lst-project__vacancy-count {
+    color: inherit; }
+  .lst-project__msg {
+    font-size: 13px;
+    line-height: 1.23;
+    color: rgba(0, 0, 0, 0.57); }
+    .lst-project__msg-icon {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      margin: -1px 2px 0 0;
+      font-size: 20px;
+      min-width: 25px;
+      color: inherit; }
+    .lst-project__msg-text {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      color: inherit; }
+  .lst-project__list {
+    display: none; }
+    .lst-project--opened .lst-project__list {
+      display: block; }
+  .lst-project__item {
+    display: block;
+    margin: 0;
+    padding: 15px 0;
+    color: rgba(0, 0, 0, 0.87);
+    border-top: 1px solid rgba(0, 0, 0, 0.12); }
+    .lst-project__item--completed {
+      color: rgba(0, 0, 0, 0.57); }
+    .lst-project__item-title {
+      display: block;
+      margin: 0 0 4px;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left; }
+
+.modal__top {
+  margin: 0 0 23px;
+  padding: 0 0 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
+
+.modal__title {
+  display: block;
+  margin: 0;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87); }
+
+.modal__close {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  outline: none;
+  background: none;
+  box-shadow: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.37);
+  cursor: pointer; }
+  .modal__close:hover, .modal__close:focus {
+    color: rgba(0, 0, 0, 0.47); }
+  .modal__close:active {
+    color: rgba(0, 0, 0, 0.87); }

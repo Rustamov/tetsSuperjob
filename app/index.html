@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head> 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE = edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Список проектов</title>
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/master.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+	<div class="container container--lg">
+		<h1 class="page-title">Список проектов</h1>
+		<div class="lst">
+			<div class="lst-panel">
+				<form action="#" autocomplete="off">
+					<div class="row align-items-center">
+						<div class="col col-md-5">
+							<div class="input-wrap">
+								<input class="input-text" type="search" name="search_field" placeholder="Поиск по вакансиям">
+							</div>
+						</div>
+						<div class="col col-md-3">
+							<label class="checkbox">
+			          <input class="checkbox__input" type="checkbox" name="Только открытые" value="Да">
+			          <i class="checkbox__icon"></i>
+			          <span class="checkbox__text">Только открытые</span>
+			        </label>
+						</div>
+						<div class="col col-md-4 lst-panel__col-btn">
+							<a class="btn btn--theme-green btn--geom-def btn--geom-mw-215" data-remodal-target="add-vacancy" href="#">Добавить проект</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		
+			<div class="lst-projects-list">
+	 			<div class="lst-project">
+					<div class="lst-project__top">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="lst-project__title">Название первого проекта</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8">
+								<div class="row">
+									<div class="col-auto">
+										<span class="lst-project__vacancy-count">34 вакансии</span>
+									</div>
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-green" href="#">Добавить вакансию</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-def" href="#">Закрыть проект</a>
+									</div>
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="lst-project__list">
+						<div class="lst-project__item">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Первая вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">search</i>
+										<span class="lst-project__msg-text">Вакансия открыта, идет подбор кандидатов</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Закрыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="lst-project__item">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Вторая вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">search</i>
+										<span class="lst-project__msg-text">Вакансия открыта, идет подбор кандидатов</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Закрыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="lst-project__item lst-project__item--completed">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Третья вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">done</i>
+										<span class="lst-project__msg-text">Вакансия закрыта, сотрудник нанят</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-green" href="#">Открыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="lst-project lst-project--opened">
+					<div class="lst-project__top">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="lst-project__title">Название проекта, который раскрыт</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8">
+								<div class="row">
+									<div class="col-auto">
+										<span class="lst-project__vacancy-count">34 вакансии</span>
+									</div>
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-green" href="#">Добавить вакансию</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-def" href="#">Закрыть проект</a>
+									</div>
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="lst-project__list">
+						<div class="lst-project__item">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Первая вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">search</i>
+										<span class="lst-project__msg-text">Вакансия открыта, идет подбор кандидатов</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Закрыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="lst-project__item">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Вторая вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">search</i>
+										<span class="lst-project__msg-text">Вакансия открыта, идет подбор кандидатов</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Закрыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="lst-project__item lst-project__item--completed">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Третья вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">done</i>
+										<span class="lst-project__msg-text">Вакансия закрыта, сотрудник нанят</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-green" href="#">Открыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="lst-project">
+					<div class="lst-project__top">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="lst-project__title">Название второго проекта</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8">
+								<div class="row">
+									<div class="col-auto">
+										<span class="lst-project__vacancy-count">34 вакансии</span>
+									</div>
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-green" href="#">Добавить вакансию</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-def" href="#">Закрыть проект</a>
+									</div>
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="lst-project__list">
+						<div class="lst-project__item">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Первая вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">search</i>
+										<span class="lst-project__msg-text">Вакансия открыта, идет подбор кандидатов</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Закрыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="lst-project__item">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Вторая вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">search</i>
+										<span class="lst-project__msg-text">Вакансия открыта, идет подбор кандидатов</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Закрыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="lst-project__item lst-project__item--completed">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Третья вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">done</i>
+										<span class="lst-project__msg-text">Вакансия закрыта, сотрудник нанят</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-green" href="#">Открыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="lst-project lst-project--completed">
+					<div class="lst-project__top">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="lst-project__title">Очень-очень длинное название третьего проекта, которое переносится на две строки</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8">
+								<div class="row">
+									<div class="col-auto">
+										<span class="lst-project__vacancy-count">55 вакансий</span>
+									</div>
+									<div class="col-auto">
+										<span class="lst-project__msg">
+											<i class="material-icon lst-project__msg-icon">done</i>
+											<span class="lst-project__msg-text">Проект закрыт, сотрудники наняты</span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="row justify-content-between">
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-green" href="#">Открыть проект</a>
+									</div>
+									<div class="col-auto">
+										<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="lst-project__list">
+						<div class="lst-project__item">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Первая вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">search</i>
+										<span class="lst-project__msg-text">Вакансия открыта, идет подбор кандидатов</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Закрыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="lst-project__item">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Вторая вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">search</i>
+										<span class="lst-project__msg-text">Вакансия открыта, идет подбор кандидатов</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Закрыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="lst-project__item lst-project__item--completed">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="lst-project__item-title">Третья вакансия</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-8">
+									<span class="lst-project__msg">
+										<i class="material-icon lst-project__msg-icon">done</i>
+										<span class="lst-project__msg-text">Вакансия закрыта, сотрудник нанят</span>
+									</span>
+								</div>
+
+								<div class="col-md-4">
+									<div class="row justify-content-between">
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-green" href="#">Открыть вакансию</a>
+										</div>
+										<div class="col-auto">
+											<a class="link-btn link-btn--theme-def" href="#">Удалить</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="remodal" data-remodal-id="add-vacancy">
+	  <div class="modal">
+		  <div class="modal__top">
+		  	<div class="row justify-content-between">
+		  		<div class="col-auto">
+					  <div class="modal__title">Новый проект</div>
+					</div>
+		  		<div class="col-auto">
+		  			<button class="modal__close" type="button" data-remodal-action="close"><i class="modal__close-icon material-icon">close</i></button>
+		  		</div>
+		  	</div>
+		  </div>
+
+		  <div class="modal__form">
+		    <form action="#" class="js-validate-form">
+	        <div class="row align-items-center">
+	        	<div class="col-md-9">
+	        		<div class="input-wrap">
+								<input class="input-text" required type="text" name="text_field" placeholder="Название проекта">
+								<span class="input-err-msg">Текст ошибки</span>
+							</div>
+	        	</div>
+	        	<div class="col-md-3">
+	        		<button class="btn btn--theme-green btn--geom-def btn--geom-w-full" type="submit">Создать</button>
+	        	</div>
+	        </div>
+		    </form>
+		  </div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/lib.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>	
